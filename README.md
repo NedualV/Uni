@@ -2,7 +2,13 @@
 
 Aplicación de escritorio en Python para crear facturas profesionales en PDF de forma rápida, pensada para freelancers y pequeños negocios en República Dominicana (aunque funciona para cualquier país).
 
-![Generador de Facturas](https://github.com/user-attachments/assets/bb1fe839-9ee9-461e-a6f0-57381b49d500)
+## Capturas de pantalla
+
+| Formulario de la aplicación | Factura generada en PDF |
+| :---: | :---: |
+| ![Formulario del Generador de Facturas](docs/screenshots/app-formulario.png) | ![Ejemplo de factura en PDF](docs/screenshots/factura-generada.png) |
+
+*Los datos de empresa/cliente en las capturas son de ejemplo.*
 
 ## Características
 
@@ -66,7 +72,8 @@ Generador-de-Facturas/
 │   ├── storage.py           # Persistencia local (perfil de empresa, numeración)
 │   ├── pdf_generator.py     # Generación del PDF con reportlab
 │   └── gui.py                # Interfaz gráfica (Tkinter)
-└── tests/                   # Pruebas automatizadas (pytest)
+├── tests/                   # Pruebas automatizadas (pytest)
+└── docs/screenshots/        # Capturas usadas en este README
 ```
 
 Los datos de la empresa y el contador de facturas se guardan en `~/.generador_facturas/` (fuera del repositorio).
