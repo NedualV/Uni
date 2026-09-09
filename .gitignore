@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Salidas de PyInstaller
+build/
+dist/
+
+# Facturas y datos generados localmente
+*.pdf
+.generador_facturas/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Pruebas
+.pytest_cache/
